@@ -21,10 +21,11 @@
 npm ci
 npm run build
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_easy_gamma_corps.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0001_loving_selene.sql
 npm run dev -- --port 5173 --hostname 127.0.0.1
 ```
 
-本地登录模拟仅用于本地开发，旧版账号兼容由Sites托管平台负责，新用户无需账号登录。数据库绑定位于`.openai/hosting.json`；复制项目部署时应使用自己的Site身份与托管配置。
+上面的完整迁移命令用于新建本地数据库；已有数据库只执行尚未应用的迁移，不要重复创建已有表。本地登录模拟仅用于旧版兼容检查，旧版账号兼容由Sites托管平台负责，新用户无需账号登录。数据库绑定位于`.openai/hosting.json`；复制项目部署时应使用自己的Site身份与托管配置。
 
 ## 校验
 

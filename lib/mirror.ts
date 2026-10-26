@@ -2,7 +2,7 @@ import profilesData from '../data/profiles.json';
 import questionsData from '../data/questions.json';
 import familiesData from '../data/families.json';
 import dimensionsData from '../data/dimensions.json';
-export const VERSION = '2.0.1';
+export const VERSION = '2.0.2';
 export const CONSENT_VERSION = '2026-10-27-v2';
 export const profiles = profilesData;
 export const questions = questionsData;
@@ -38,38 +38,25 @@ function shuffled<T>(input: T[], random: () => number) { const a = [...input]; f
     const j = Math.floor(random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
 } return a; }
-export function makeSession(mode: Mode, seed: number): Session {
-    const random = rng(seed), selected: Question[] = [];
-    for (let d = 0; d < 14; d++) {
-        const pool = shuffled(questions.filter(q => q.dimension === d), random), chosen: Question[] = [];
-        const reverse = pool.find(q => q.reverse), direct = pool.find(q => !q.reverse);
-        if (reverse)
-            chosen.push(reverse);
-        if (direct)
-            chosen.push(direct);
-        while (chosen.length < mode / 14) {
-            const candidates = pool.filter(q => !chosen.some(c => c.id === q.id));
-            const domains = new Set(chosen.map(q => q.domain));
-            chosen.push(candidates.find(q => !domains.has(q.domain)) || candidates[0]);
-        }
-        selected.push(...chosen);
-    }
-    const ids = shuffled(selected, random).map(q => q.id);
-    return { id: globalThis.crypto?.randomUUID?.() || String(Date.now()) + '-' + seed, mode, ids, used: [...ids], answers: {}, index: 0, seed, created: new Date().toISOString() };
+function pickDistinct(pool:Question[], selected:Question[], random:()=>number){
+ const counts=new Map<string,number>();for(const q of selected)counts.set(q.theme,(counts.get(q.theme)||0)+1);
+ return shuffled(pool,random).map(q=>({q,cost:(counts.get(q.theme)||0)*10+selected.filter(s=>s.dimension===q.dimension&&s.domain===q.domain).length})).sort((a,b)=>a.cost-b.cost)[0]?.q;
 }
-export function replaceQuestion(session: Session): Session | null {
-    const old = questionById(session.ids[session.index]);
-    if (!old)
-        return null;
-    const available = shuffled(questions.filter(q => q.dimension === old.dimension && !session.used.includes(q.id)), rng(session.seed + session.used.length));
-    const next = available.find(q => q.domain !== old.domain) || available[0];
-    if (!next)
-        return null;
-    const ids = [...session.ids];
-    ids[session.index] = next.id;
-    const answers = { ...session.answers };
-    delete answers[old.id];
-    return { ...session, ids, answers, used: [...session.used, next.id] };
+export function makeSession(mode:Mode,seed:number):Session{
+ const random=rng(seed),selected:Question[]=[];
+ for(let round=0;round<mode/14;round++)for(const d of shuffled(Array.from({length:14},(_,i)=>i),random)){
+  const pool=questions.filter(q=>q.dimension===d&&!selected.some(s=>s.id===q.id));
+  const directed=round===0?pool.filter(q=>q.reverse):round===1?pool.filter(q=>!q.reverse):pool;
+  selected.push(pickDistinct(directed.length?directed:pool,selected,random)!);
+ }
+ const ids=shuffled(selected,random).map(q=>q.id);
+ return{id:globalThis.crypto?.randomUUID?.()||String(Date.now())+'-'+seed,mode,ids,used:[...ids],answers:{},index:0,seed,created:new Date().toISOString()};
+}
+export function replaceQuestion(session:Session):Session|null{
+ const old=questionById(session.ids[session.index]);if(!old)return null;
+ const selected=session.ids.filter(id=>id!==old.id).map(questionById).filter((q):q is Question=>!!q);
+ const next=pickDistinct(questions.filter(q=>q.dimension===old.dimension&&!session.used.includes(q.id)),selected,rng(session.seed+session.used.length));
+ if(!next)return null;const ids=[...session.ids];ids[session.index]=next.id;const answers={...session.answers};delete answers[old.id];return{...session,ids,answers,used:[...session.used,next.id]};
 }
 export function validSession(value: unknown): value is Session {
     if (!value || typeof value !== 'object')

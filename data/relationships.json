@@ -1,0 +1,572 @@
+{
+  "valley-listener": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "cloud-dreamer",
+          "reason": "可以从轻松的小话题和低门槛尝试开始，给想法留空间，再共同决定是否行动。"
+        },
+        {
+          "id": "banquet-seeker",
+          "reason": "适合散步、吃饭或安静聊天，给具体感受留一点时间，也听见彼此不同的看法。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "讨论时，一方可能先想听见不同解释，另一方更在意自己的判断有没有位置；先约定轮流表达，避免把分歧听成轻视。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "stone-sentinel",
+          "reason": "可尝试以充分沟通、循序渐进的节奏了解彼此，观察能否听完不同意见再作决定。"
+        },
+        {
+          "id": "laurel-oathkeeper",
+          "reason": "对关系的期待可以被认真谈清楚；双方都保留表达不同意见与调整节奏的空间。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "表达不同意见时，一方可能期待继续探索，另一方容易感到自己的判断被低估；需要练习平等反馈与明确表达。"
+        }
+      ]
+    }
+  },
+  "lantern-guide": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "laurel-oathkeeper",
+          "reason": "愿意给彼此的感受与意愿留位置，适合练习直接表达需要并互相确认。"
+        },
+        {
+          "id": "golden-sower",
+          "reason": "可以从分享经验、交换资源或一起帮助一件具体小事开始，让支持保持双向。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "gilded-starkeeper",
+          "reason": "一方倾向回应人的需要，另一方更关注资源保留；借用、分享和回报方式应提前说清。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "golden-sower",
+          "reason": "可以共同安排有温度的日常，分享关心和资源，同时确认付出是否双向、各自是否有余力。"
+        },
+        {
+          "id": "keeper-of-balance",
+          "reason": "适合共同练习把关心落进可持续的安排，让陪伴、独处和生活责任都有清楚的位置。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "gilded-starkeeper",
+          "reason": "照顾彼此与保留个人资源的安排需要更多协商；不要用付出换取服从，也别让一方长期承担照顾责任。"
+        }
+      ]
+    }
+  },
+  "stone-sentinel": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "starlit-builder",
+          "reason": "可以把共同兴趣发展成持续练习：一段段推进，也给暂时没有成果的过程留时间。"
+        },
+        {
+          "id": "laurel-oathkeeper",
+          "reason": "重视相处节奏与说定的事，适合从稳定、清楚的小约定逐步建立信任。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "ember-vanguard",
+          "reason": "对等待与冲突的节奏可能不同；有人需要时间，有人想立刻处理，适合先约定暂停和回来的时间。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "valley-listener",
+          "reason": "可尝试以充分沟通、循序渐进的节奏了解彼此，观察能否听完不同意见再作决定。"
+        },
+        {
+          "id": "laurel-oathkeeper",
+          "reason": "适合从稳定的联系与明确的小约定开始，慢慢观察彼此是否言行一致、尊重意愿。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "ember-vanguard",
+          "reason": "情绪上升时的处理速度可能不同；需要双方共同遵守暂停、返回沟通及不攻击彼此的规则。"
+        }
+      ]
+    }
+  },
+  "starlit-builder": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "keeper-of-balance",
+          "reason": "一起学技能或完成小项目时，容易找到“做多少、何时停”的具体讨论方式。"
+        },
+        {
+          "id": "stone-sentinel",
+          "reason": "可以把共同兴趣发展成持续练习：一段段推进，也给暂时没有成果的过程留时间。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "cloud-dreamer",
+          "reason": "一起做事时，对何时开始和推进多少的预期可能不同；把第一步、截止时间与责任写清楚。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "可从共同完成一个小目标了解彼此，提前约好决策方式、贡献呈现与各自的自主空间。"
+        },
+        {
+          "id": "ember-vanguard",
+          "reason": "一起进行短周期的小计划时有具体的互动机会；双方都应能暂停争执并为自己的反应负责。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "cloud-dreamer",
+          "reason": "共同生活中的启动时间、家务与目标推进可能产生落差；明确责任和可执行的小安排更重要。"
+        }
+      ]
+    }
+  },
+  "golden-sower": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "lantern-guide",
+          "reason": "可以从分享经验、交换资源或一起帮助一件具体小事开始，让支持保持双向。"
+        },
+        {
+          "id": "gilded-starkeeper",
+          "reason": "可以围绕收藏、资源整理或共同建设展开友谊，事先说清分享范围会更舒服。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "分享资源与成果归属可能有不同期待；先说明哪些帮助可以提供，也让彼此贡献得到明确的承认。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "lantern-guide",
+          "reason": "可以共同安排有温度的日常，分享关心和资源，同时确认付出是否双向、各自是否有余力。"
+        },
+        {
+          "id": "keeper-of-balance",
+          "reason": "可以一起讨论怎样投入共同生活，把愿意分享与预算、时间和个人边界一并说清。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "gilded-starkeeper",
+          "reason": "共同资源、礼物与回报的理解可能不同；需要把共享范围与个人所有权讲清，避免默默累计委屈。"
+        }
+      ]
+    }
+  },
+  "keeper-of-balance": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "dawn-dusk-weaver",
+          "reason": "可以一起梳理多种选择，把开放的视角与具体的时间、精力安排放在同一张地图上。"
+        },
+        {
+          "id": "starlit-builder",
+          "reason": "一起学技能或完成小项目时，容易找到“做多少、何时停”的具体讨论方式。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "crimson-moon-wanderer",
+          "reason": "对当下投入与原有安排的重视程度可能不同；约定联系时段、结束信号和各自的个人空间。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "lantern-guide",
+          "reason": "适合共同练习把关心落进可持续的安排，让陪伴、独处和生活责任都有清楚的位置。"
+        },
+        {
+          "id": "golden-sower",
+          "reason": "可以一起讨论怎样投入共同生活，把愿意分享与预算、时间和个人边界一并说清。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "crimson-moon-wanderer",
+          "reason": "亲密投入与日常责任之间可能出现节奏冲突；需要明确联系时间、个人空间与双方自愿的相处方式。"
+        }
+      ]
+    }
+  },
+  "laurel-oathkeeper": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "stone-sentinel",
+          "reason": "重视相处节奏与说定的事，适合从稳定、清楚的小约定逐步建立信任。"
+        },
+        {
+          "id": "lantern-guide",
+          "reason": "愿意给彼此的感受与意愿留位置，适合练习直接表达需要并互相确认。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "crimson-moon-wanderer",
+          "reason": "对亲密互动中的暗示和约定可能理解不同；明确说出意愿，任何犹豫或拒绝都应被尊重。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "valley-listener",
+          "reason": "对关系的期待可以被认真谈清楚；双方都保留表达不同意见与调整节奏的空间。"
+        },
+        {
+          "id": "stone-sentinel",
+          "reason": "适合从稳定的联系与明确的小约定开始，慢慢观察彼此是否言行一致、尊重意愿。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "crimson-moon-wanderer",
+          "reason": "对互动暗示与关系边界的理解可能不同；必须先确认意愿，任何一方都不应承担说服或被说服的压力。"
+        }
+      ]
+    }
+  },
+  "sun-crowned-sovereign": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "gilded-starkeeper",
+          "reason": "适合围绕作品、目标和资源安排交流，把彼此的贡献与分配方式讲明白。"
+        },
+        {
+          "id": "ember-vanguard",
+          "reason": "可以一起参与有清楚规则的挑战，提前约好职责和分歧处理方式，让个人声音都有位置。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "valley-listener",
+          "reason": "认可自身经验与继续听取新意见之间可能有拉扯；把异议放回事与证据，别用位置代替讨论。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "starlit-builder",
+          "reason": "可从共同完成一个小目标了解彼此，提前约好决策方式、贡献呈现与各自的自主空间。"
+        },
+        {
+          "id": "ember-vanguard",
+          "reason": "可探索目标明确、表达直接的相处方式，前提是双方都愿意平等协商，并能尊重拒绝和暂停。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "mirrorlake-seeker",
+          "reason": "认可与比较容易纠缠在一起；双方需要建立各自的目标和表达需要的方式，不用成绩或关注度评定感情。"
+        }
+      ]
+    }
+  },
+  "mirrorlake-seeker": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "ember-vanguard",
+          "reason": "可以把触动自己的事件拿来具体讨论，先区分事实与感受，再决定下一步。"
+        },
+        {
+          "id": "crimson-moon-wanderer",
+          "reason": "适合交流自己真正向往的体验与关系，彼此倾听，也尊重各自不想分享的部分。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "关注与认可的分配可能容易引发比较；及时谈自己的需要，避免用彼此的成绩评定关系价值。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "gilded-starkeeper",
+          "reason": "可以认真交流各自向往的生活与重视的资源，清楚约定金钱、机会与个人目标的边界。"
+        },
+        {
+          "id": "dawn-dusk-weaver",
+          "reason": "适合从讲述真实经历开始，让不同视角帮助彼此看清想要什么，也保留独立的自我评价。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "彼此的认可需求可能触发反复比较；需要坦诚谈在意的事情，同时维护独立的自我评价。"
+        }
+      ]
+    }
+  },
+  "ember-vanguard": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "可以一起参与有清楚规则的挑战，提前约好职责和分歧处理方式，让个人声音都有位置。"
+        },
+        {
+          "id": "mirrorlake-seeker",
+          "reason": "可以把触动自己的事件拿来具体讨论，先区分事实与感受，再决定下一步。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "stone-sentinel",
+          "reason": "对立即解决和耐心等待的需求可能冲突；清楚约定表达方式，不把声音更大当作理由更充分。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "starlit-builder",
+          "reason": "一起进行短周期的小计划时有具体的互动机会；双方都应能暂停争执并为自己的反应负责。"
+        },
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "可探索目标明确、表达直接的相处方式，前提是双方都愿意平等协商，并能尊重拒绝和暂停。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "stone-sentinel",
+          "reason": "处理不快时，一方可能想马上有结果，另一方需要更长的消化时间；需要明确暂停时间并各自承担行为后果。"
+        }
+      ]
+    }
+  },
+  "cloud-dreamer": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "valley-listener",
+          "reason": "可以从轻松的小话题和低门槛尝试开始，给想法留空间，再共同决定是否行动。"
+        },
+        {
+          "id": "dawn-dusk-weaver",
+          "reason": "适合一起记录不同生活片段，允许暂时没有定论，也为下一次尝试约一个小起点。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "starlit-builder",
+          "reason": "自由安排与持续推进之间可能出现落差；共同活动宜从低负担、分工清楚的小事开始。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "banquet-seeker",
+          "reason": "可以从轻松、负担较小的日常约会开始，观察能否共同照顾作息、责任与各自的舒服程度。"
+        },
+        {
+          "id": "crimson-moon-wanderer",
+          "reason": "适合先从短小具体的见面安排了解彼此，把期待说清楚，给选择与拒绝都留出空间。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "starlit-builder",
+          "reason": "对自由节奏和共同任务的期待可能不同；小额、短期、可完成的共同约定有助于观察真实的配合方式。"
+        }
+      ]
+    }
+  },
+  "gilded-starkeeper": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "golden-sower",
+          "reason": "可以围绕收藏、资源整理或共同建设展开友谊，事先说清分享范围会更舒服。"
+        },
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "适合围绕作品、目标和资源安排交流，把彼此的贡献与分配方式讲明白。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "lantern-guide",
+          "reason": "保留个人资源与回应他人需要之间可能有拉扯；先谈可以支持到什么程度，减少隐形人情账。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "mirrorlake-seeker",
+          "reason": "可以认真交流各自向往的生活与重视的资源，清楚约定金钱、机会与个人目标的边界。"
+        },
+        {
+          "id": "dawn-dusk-weaver",
+          "reason": "可以共同讨论“怎样的生活算足够”，在多种可能中确认双方真正愿意投入的方向。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "golden-sower",
+          "reason": "对多少资源属于共同生活可能有分歧；谈清预算、决定权和个人边界，避免把资源与情感承诺绑定。"
+        }
+      ]
+    }
+  },
+  "banquet-seeker": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "crimson-moon-wanderer",
+          "reason": "可以从轻松的日常体验开始相处，共同约好活动节奏与结束时间。"
+        },
+        {
+          "id": "valley-listener",
+          "reason": "适合散步、吃饭或安静聊天，给具体感受留一点时间，也听见彼此不同的看法。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "keeper-of-balance",
+          "reason": "对享受何时结束可能有不同感受；共同活动预先说好节奏，各自也可以按自己的舒服程度停止。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "cloud-dreamer",
+          "reason": "可以从轻松、负担较小的日常约会开始，观察能否共同照顾作息、责任与各自的舒服程度。"
+        },
+        {
+          "id": "crimson-moon-wanderer",
+          "reason": "可从共同喜欢的体验建立连接，同时明确相处节奏、身体感受与双方自愿的边界。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "keeper-of-balance",
+          "reason": "安慰、享受和限度的安排可能不同；双方都应保留自主决定身体与日常节奏的权利，不做监督或评判者。"
+        }
+      ]
+    }
+  },
+  "crimson-moon-wanderer": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "mirrorlake-seeker",
+          "reason": "适合交流自己真正向往的体验与关系，彼此倾听，也尊重各自不想分享的部分。"
+        },
+        {
+          "id": "banquet-seeker",
+          "reason": "可以从轻松的日常体验开始相处，共同约好活动节奏与结束时间。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "laurel-oathkeeper",
+          "reason": "对互动是否已经说定可能有不同理解；先确认再推进，拒绝不能被当作等待说服的邀请。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "cloud-dreamer",
+          "reason": "适合先从短小具体的见面安排了解彼此，把期待说清楚，给选择与拒绝都留出空间。"
+        },
+        {
+          "id": "banquet-seeker",
+          "reason": "可从共同喜欢的体验建立连接，同时明确相处节奏、身体感受与双方自愿的边界。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "laurel-oathkeeper",
+          "reason": "对进一步靠近的节奏和界限可能不同；清楚的同意与拒绝应被完整尊重，不能靠人格标签合理化越界。"
+        }
+      ]
+    }
+  },
+  "dawn-dusk-weaver": {
+    "friends": {
+      "recommended": [
+        {
+          "id": "cloud-dreamer",
+          "reason": "适合一起记录不同生活片段，允许暂时没有定论，也为下一次尝试约一个小起点。"
+        },
+        {
+          "id": "keeper-of-balance",
+          "reason": "可以一起梳理多种选择，把开放的视角与具体的时间、精力安排放在同一张地图上。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "sun-crowned-sovereign",
+          "reason": "一方可能想保留多个解释，另一方更希望主张被明确认可；先说明本次讨论是探索还是作决定。"
+        }
+      ]
+    },
+    "romance": {
+      "recommended": [
+        {
+          "id": "mirrorlake-seeker",
+          "reason": "适合从讲述真实经历开始，让不同视角帮助彼此看清想要什么，也保留独立的自我评价。"
+        },
+        {
+          "id": "gilded-starkeeper",
+          "reason": "可以共同讨论“怎样的生活算足够”，在多种可能中确认双方真正愿意投入的方向。"
+        }
+      ],
+      "caution": [
+        {
+          "id": "ember-vanguard",
+          "reason": "探索多种解释和迅速给出回应的需求可能相撞；需要先确认是在倾听、共同分析还是作决定。"
+        }
+      ]
+    }
+  }
+}

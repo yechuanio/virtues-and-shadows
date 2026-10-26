@@ -1,0 +1,2 @@
+const fs=require('node:fs');const path=require('node:path');const {createRequire}=require('node:module');const ts=require('typescript');
+module.exports=function(){const file=path.resolve(__dirname,'../lib/mirror.ts');const compiled=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true,resolveJsonModule:true}}).outputText;const mod={exports:{}};new Function('require','exports','module',compiled)(createRequire(file),mod.exports,mod);return mod.exports;};

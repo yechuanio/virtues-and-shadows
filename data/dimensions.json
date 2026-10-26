@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "name": "谦逊",
+    "kind": "virtue"
+  },
+  {
+    "id": 1,
+    "name": "仁爱",
+    "kind": "virtue"
+  },
+  {
+    "id": 2,
+    "name": "耐心",
+    "kind": "virtue"
+  },
+  {
+    "id": 3,
+    "name": "勤勉",
+    "kind": "virtue"
+  },
+  {
+    "id": 4,
+    "name": "慷慨",
+    "kind": "virtue"
+  },
+  {
+    "id": 5,
+    "name": "节制",
+    "kind": "virtue"
+  },
+  {
+    "id": 6,
+    "name": "亲密尊重",
+    "kind": "virtue"
+  },
+  {
+    "id": 7,
+    "name": "傲慢",
+    "kind": "shadow"
+  },
+  {
+    "id": 8,
+    "name": "嫉妒",
+    "kind": "shadow"
+  },
+  {
+    "id": 9,
+    "name": "暴怒",
+    "kind": "shadow"
+  },
+  {
+    "id": 10,
+    "name": "行动回避",
+    "kind": "shadow"
+  },
+  {
+    "id": 11,
+    "name": "贪婪",
+    "kind": "shadow"
+  },
+  {
+    "id": 12,
+    "name": "饮食失衡",
+    "kind": "shadow"
+  },
+  {
+    "id": 13,
+    "name": "亲密冲动失衡",
+    "kind": "shadow"
+  }
+]

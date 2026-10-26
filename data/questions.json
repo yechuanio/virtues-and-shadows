@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "d4-11",
+    "key": "d4-11",
+    "reviewId": 1,
+    "dimension": 3,
+    "text": "计划写得很完整，实际情况却和预想不同。我会改动步骤，让事情继续往前走。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d2-7",
+    "key": "d2-7",
+    "reviewId": 2,
+    "dimension": 1,
+    "text": "有人在大家面前把一个事实说错了。我倾向于当场给出准确说法，免得其他人也记错。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d13-12",
+    "key": "d13-12",
+    "reviewId": 3,
+    "dimension": 12,
+    "text": "一边赶事情一边吃东西时，我较难察觉自己是否已经饱了，停下时才发现超过需要。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d5-10",
+    "key": "d5-10",
+    "reviewId": 4,
+    "dimension": 4,
+    "text": "我整理出一张方便大家办事的清单。我愿意放在共享位置，让别人也能直接使用。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d13-4",
+    "key": "d13-4",
+    "reviewId": 5,
+    "dimension": 12,
+    "text": "路过熟悉的香味，虽然刚吃过一顿，我也很想买。我能让这次的“想尝”停留在想一想，不必当场吃到。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d12-10",
+    "key": "d12-10",
+    "reviewId": 6,
+    "dimension": 11,
+    "text": "项目的回报已经超过最初期待，我会很快把新的更高回报当作应该达到的标准。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d4-13",
+    "key": "d4-13",
+    "reviewId": 7,
+    "dimension": 3,
+    "text": "发现自己忘了一件答应过的事，别人还没来问。我会主动重新安排并告诉对方。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d14-4",
+    "key": "d14-4",
+    "reviewId": 8,
+    "dimension": 13,
+    "text": "和对方聊得很有火花时，我会觉得，有些先前说好的关系界限可以到时候再解释。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d7-12",
+    "key": "d7-12",
+    "reviewId": 9,
+    "dimension": 6,
+    "text": "某个暧昧玩笑在朋友间很常见，但当事人没有接话。我会让这个玩笑停下来，换一个话题。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d11-11",
+    "key": "d11-11",
+    "reviewId": 10,
+    "dimension": 10,
+    "text": "自己提出的一个小活动，大家已经表示愿意参加。我会因为还要落实时间地点，迟迟不发下一条消息。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d1-7",
+    "key": "d1-7",
+    "reviewId": 11,
+    "dimension": 0,
+    "text": "向不熟悉的人介绍自己时，我通常先说正在做的事，很少先列过去的成绩。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d4-14",
+    "key": "d4-14",
+    "reviewId": 12,
+    "dimension": 3,
+    "text": "一个目标暂时看不见近期成果。我会更愿意把时间先给一件马上能看见进展的小事。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d2-9",
+    "key": "d2-9",
+    "reviewId": 13,
+    "dimension": 1,
+    "text": "同伴因为个人原因临时退出活动，我已经忙了不少准备。我会先弄清楚他需要什么，再谈安排。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d11-14",
+    "key": "d11-14",
+    "reviewId": 14,
+    "dimension": 10,
+    "text": "日常事务有一项可以由我顺手完成。我会等一等，看是否有人刚好先做了。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d11-8",
+    "key": "d11-8",
+    "reviewId": 15,
+    "dimension": 10,
+    "text": "手边的小东西坏了很久，替换件也已经到了。我会继续绕开它使用，让修理再等一阵。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d14-9",
+    "key": "d14-9",
+    "reviewId": 16,
+    "dimension": 13,
+    "text": "一次约见面原本说好只是普通相处，我会在现场不断试着制造更亲密的机会，即使对方回应很少。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d2-11",
+    "key": "d2-11",
+    "reviewId": 17,
+    "dimension": 1,
+    "text": "以前与我有过小摩擦的人，今天完成了一件不错的事。我也能具体地夸到他的成果。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d4-3",
+    "key": "d4-3",
+    "reviewId": 18,
+    "dimension": 3,
+    "text": "学到一项新方法后，手边有个小问题能用上。我更想先多看几个例子，再挑一个合适的时候实际试。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d13-15",
+    "key": "d13-15",
+    "reviewId": 19,
+    "dimension": 12,
+    "text": "菜单上有几样都很想尝，单份的量也不少。我会先选最想吃的一两样，接受这一次不把想吃的都点上。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d9-12",
+    "key": "d9-12",
+    "reviewId": 20,
+    "dimension": 8,
+    "text": "家人拿我和另一个人作比较之后，我会格外留意那个人后来有没有失误。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d4-6",
+    "key": "d4-6",
+    "reviewId": 21,
+    "dimension": 3,
+    "text": "做事中途被打断，回来时热情已经淡了。我通常还能找到原来的位置接着做。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d10-7",
+    "key": "d10-7",
+    "reviewId": 22,
+    "dimension": 9,
+    "text": "计划被人临时打乱后，我会有一阵子对周围其他小事也特别容易不耐烦。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d9-9",
+    "key": "d9-9",
+    "reviewId": 23,
+    "dimension": 8,
+    "text": "听说一个让我有比较压力的人也遇到挫折，我会先想起那种处境本身有多难受。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d2-4",
+    "key": "d2-4",
+    "reviewId": 24,
+    "dimension": 1,
+    "text": "服务员端错了菜，正在着急找单子。我会把需求再说一遍，给他一点处理的时间。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d13-14",
+    "key": "d13-14",
+    "reviewId": 25,
+    "dimension": 12,
+    "text": "心里空落落时，我常会去厨房或外卖页面看看，先于想到自己是不是真的饿了。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d3-7",
+    "key": "d3-7",
+    "reviewId": 26,
+    "dimension": 2,
+    "text": "线上提交的资料被退回，需要重新补一项。我会按步骤补好，再考虑有没有更方便的办法。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d11-12",
+    "key": "d11-12",
+    "reviewId": 27,
+    "dimension": 10,
+    "text": "收到一份能直接修改的反馈，我愿意先改其中一处，让文件留下实际变化，再决定剩下的安排。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d5-3",
+    "key": "d5-3",
+    "reviewId": 28,
+    "dimension": 4,
+    "text": "手里有一个自己暂时用不上的名额，但过几天也许会改变主意。我会先把名额留到最后再决定。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d5-14",
+    "key": "d5-14",
+    "reviewId": 29,
+    "dimension": 4,
+    "text": "一起出游结算费用，原定方案对我不太划算。我会提出再按实际使用情况算一次，即使需要多花一点时间。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d8-1",
+    "key": "d8-1",
+    "reviewId": 30,
+    "dimension": 7,
+    "text": "合作展示的署名顺序没有约定，我和另一人的工作量接近。我通常不太介意谁排在前面，只要分工写得清楚。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d2-15",
+    "key": "d2-15",
+    "reviewId": 31,
+    "dimension": 1,
+    "text": "别人因为不熟悉规则耽误了一点时间。我通常会把规则讲清楚，而不只催他赶快。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d2-6",
+    "key": "d2-6",
+    "reviewId": 32,
+    "dimension": 1,
+    "text": "朋友终于学会一件对我来说很容易的事。我会想帮他看下一步能学什么，而不是停在这一次的进展上。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d10-6",
+    "key": "d10-6",
+    "reviewId": 33,
+    "dimension": 9,
+    "text": "办事遇到不合理的环节，我会把积累的火气带到接下来接待我的人面前。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d4-9",
+    "key": "d4-9",
+    "reviewId": 34,
+    "dimension": 3,
+    "text": "资料收藏了不少，新出现的一份看起来更适合自己。我会想先把学习材料选到满意，再开始正式学。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d3-14",
+    "key": "d3-14",
+    "reviewId": 35,
+    "dimension": 2,
+    "text": "修一个小东西时，第一种办法没用。我愿意换一步尝试，而不是马上整件放下。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d12-8",
+    "key": "d12-8",
+    "reviewId": 36,
+    "dimension": 11,
+    "text": "一件很久没用的东西，有人现在正需要。我能根据它眼下的用处做决定，不一直等一个可能更好的交换。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d8-9",
+    "key": "d8-9",
+    "reviewId": 37,
+    "dimension": 7,
+    "text": "团队准备改变一种我一直在用的工作习惯。我会比讨论其他改动时，更想把理由逐条问清楚。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d10-9",
+    "key": "d10-9",
+    "reviewId": 38,
+    "dimension": 9,
+    "text": "正在生气时，手边的小东西又不顺手。我会先把东西放下，让自己离开这个位置一会儿。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d14-12",
+    "key": "d14-12",
+    "reviewId": 39,
+    "dimension": 13,
+    "text": "对方已经说某类玩笑会让他不舒服，我仍会在气氛不错时，想试着用更含蓄的方式再说一次。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d3-5",
+    "key": "d3-5",
+    "reviewId": 40,
+    "dimension": 2,
+    "text": "约好的安排临时要晚二十分钟。我能重新安排这段空隙，而不一直盯着时间。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d4-7",
+    "key": "d4-7",
+    "reviewId": 41,
+    "dimension": 3,
+    "text": "一个自己很在意的小目标，暂时没人知道。我仍会给它安排固定的推进时间。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d7-9",
+    "key": "d7-9",
+    "reviewId": 42,
+    "dimension": 6,
+    "text": "伴侣觉得一次单独见面不太合适，而我觉得只是普通来往。我会先讲清楚自己的安排，再看是否有具体部分需要调整。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d12-14",
+    "key": "d12-14",
+    "reviewId": 43,
+    "dimension": 11,
+    "text": "共同购买的东西产生一点额外收益。只要原定的分配方式还适用，我倾向于沿用，不重新找多分一份的理由。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d14-5",
+    "key": "d14-5",
+    "reviewId": 44,
+    "dimension": 13,
+    "text": "对方已经把话题转回日常，我仍会想把聊天再带回暧昧的方向。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d6-15",
+    "key": "d6-15",
+    "reviewId": 45,
+    "dimension": 5,
+    "text": "今晚的安排已经不少，又来了一个很难得的邀请。我会想先答应，再试着把其他安排挤一挤。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d10-4",
+    "key": "d10-4",
+    "reviewId": 46,
+    "dimension": 9,
+    "text": "争论时，我发现自己已经开始想评价对方这个人。我通常能把下一句话拉回刚才具体发生的事。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d12-3",
+    "key": "d12-3",
+    "reviewId": 47,
+    "dimension": 11,
+    "text": "买到的东西已经够日常使用，看到同款低价时，我仍会很想再囤一些。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d13-5",
+    "key": "d13-5",
+    "reviewId": 48,
+    "dimension": 12,
+    "text": "家里打开了一包喜欢的食物，我本来只想尝一点。我会不断把“最后一口”往后推。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d6-11",
+    "key": "d6-11",
+    "reviewId": 49,
+    "dimension": 5,
+    "text": "看中一个系列后，我已经有最喜欢的那一件。我能停在这里，不必为了凑齐继续买。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d3-2",
+    "key": "d3-2",
+    "reviewId": 50,
+    "dimension": 2,
+    "text": "家人学一个手机操作，刚讲过的步骤又忘了。我能换一种讲法再试一次。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d13-6",
+    "key": "d13-6",
+    "reviewId": 51,
+    "dimension": 12,
+    "text": "聚餐已经吃得舒服，大家又加点一轮。我可以继续坐着聊天，不一定要和这一轮保持同样的进度。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d14-2",
+    "key": "d14-2",
+    "reviewId": 52,
+    "dimension": 13,
+    "text": "一个暧昧对象表示最近想少联系，我会想再换一种轻松的话题试试，看他会不会接。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d3-15",
+    "key": "d3-15",
+    "reviewId": 53,
+    "dimension": 2,
+    "text": "几种解释暂时都有道理，但讨论已经持续很久。我更想先选一个可行的方向试试，再根据结果调整。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d7-7",
+    "key": "d7-7",
+    "reviewId": 54,
+    "dimension": 6,
+    "text": "我对一个人很有好感，但我们之间还有工作上的上下级关系。我会先把这种关系带来的压力考虑进去。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d1-8",
+    "key": "d1-8",
+    "reviewId": 55,
+    "dimension": 0,
+    "text": "我带新人做事，他的一处操作与我的习惯不同。我会先看实际效果，再决定是否让他改。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d6-13",
+    "key": "d6-13",
+    "reviewId": 56,
+    "dimension": 5,
+    "text": "手边还有旧物能正常使用，新款已经上市。我能让更换时间跟着实际需要走。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d6-7",
+    "key": "d6-7",
+    "reviewId": 57,
+    "dimension": 5,
+    "text": "买到的优惠服务需要花额外时间才能用够。我会愿意把最近的安排挪一挪，尽量体验完整。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d2-13",
+    "key": "d2-13",
+    "reviewId": 58,
+    "dimension": 1,
+    "text": "朋友分享好消息时，恰好我自己的事情不太顺。我仍愿意陪他多聊一会儿这件好事。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d9-15",
+    "key": "d9-15",
+    "reviewId": 59,
+    "dimension": 8,
+    "text": "共同参加的活动里，熟人得到了更多关注。我回家后会多次回想，当时自己哪些地方没有被看见。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d14-1",
+    "key": "d14-1",
+    "reviewId": 60,
+    "dimension": 13,
+    "text": "和有吸引力的人聊得投入，已经到了自己原定的睡觉时间。我能约一个下次继续的时间，让今晚停在这里。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d11-2",
+    "key": "d11-2",
+    "reviewId": 61,
+    "dimension": 10,
+    "text": "一个很在意的计划，资料和工具都已经备齐。我还是会继续看别人怎么做，迟迟不开始自己的版本。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d13-1",
+    "key": "d13-1",
+    "reviewId": 62,
+    "dimension": 12,
+    "text": "吃到身体已经有些撑了，桌上恰好又上来最喜欢的那道菜。我会继续吃到这一轮结束。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d8-6",
+    "key": "d8-6",
+    "reviewId": 63,
+    "dimension": 7,
+    "text": "得到一个有分量的认可后，我会期待原本不太听我意见的人改变对我的态度。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d6-3",
+    "key": "d6-3",
+    "reviewId": 64,
+    "dimension": 5,
+    "text": "一天过得不顺，准备打开常用的购物或娱乐平台。我会先想想自己此刻真正想缓解什么。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d4-8",
+    "key": "d4-8",
+    "reviewId": 65,
+    "dimension": 3,
+    "text": "答应帮忙的事不算难，但做起来很零碎。我会找个时间集中收尾，让对方不用再追问。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d5-12",
+    "key": "d5-12",
+    "reviewId": 66,
+    "dimension": 4,
+    "text": "别人因为我的介绍获得了机会，我没有得到额外好处。我仍觉得这次牵线有价值。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d1-4",
+    "key": "d1-4",
+    "reviewId": 67,
+    "dimension": 0,
+    "text": "介绍一个合作成果的时间只有一分钟。我会优先把自己解决的关键问题讲清楚，其他人的部分留给他们介绍。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d1-3",
+    "key": "d1-3",
+    "reviewId": 68,
+    "dimension": 0,
+    "text": "自己认真写好的方案，被刚入职的人挑出一个漏洞。我会先问他具体会怎样处理。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d7-8",
+    "key": "d7-8",
+    "reviewId": 69,
+    "dimension": 6,
+    "text": "聚会后有人明显不在平时清醒的状态，和我靠得很近。我会把进一步的决定留到对方清醒时再说。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d4-12",
+    "key": "d4-12",
+    "reviewId": 70,
+    "dimension": 3,
+    "text": "一件事已经完成主要部分，只差检查和整理。我会先开始下一件更有推进感的事，收尾等合适的时候一起做。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d6-10",
+    "key": "d6-10",
+    "reviewId": 71,
+    "dimension": 5,
+    "text": "完成一件费了不少心力的事，我很想奖励自己。这一次我会倾向于让原来的预算松一点。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d5-13",
+    "key": "d5-13",
+    "reviewId": 72,
+    "dimension": 4,
+    "text": "合作时我手里恰好有一件能省大家时间的资源。我会先拿出来讨论怎样一起用。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d7-3",
+    "key": "d7-3",
+    "reviewId": 73,
+    "dimension": 6,
+    "text": "两个人对什么算越界的理解似乎不同。我愿意在事情发生前，先把具体情况聊明白。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d12-2",
+    "key": "d12-2",
+    "reviewId": 74,
+    "dimension": 11,
+    "text": "合作时原本谈好了分配方式，后来发现成果比预计大。我会想重新谈谈，看能否再多拿一些。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d12-15",
+    "key": "d12-15",
+    "reviewId": 75,
+    "dimension": 11,
+    "text": "一个本来已经足够好的结果，还能通过压缩他人的份额变得更有利于我。我会很难不继续考虑这个办法。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d5-6",
+    "key": "d5-6",
+    "reviewId": 76,
+    "dimension": 4,
+    "text": "自己有一件闲置但还能好好用的东西，朋友正需要。我会考虑让它继续派上用场。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d2-10",
+    "key": "d2-10",
+    "reviewId": 77,
+    "dimension": 1,
+    "text": "快递被放错位置，配送员打来电话解释。我会先把自己需要的处理结果说清楚，再听他讲经过。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d10-14",
+    "key": "d10-14",
+    "reviewId": 78,
+    "dimension": 9,
+    "text": "讨论中发现自己已经被气到很难听进去，我仍会想把这一轮争论分出结果。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d9-5",
+    "key": "d9-5",
+    "reviewId": 79,
+    "dimension": 8,
+    "text": "看到别人轻松得到我费了很多力气才有的东西，我会有点难把注意力放回自己的事。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d5-11",
+    "key": "d5-11",
+    "reviewId": 80,
+    "dimension": 4,
+    "text": "一份额外的小收入不影响必要开销。我最先想到的是，把它放进自己还没实现的一个愿望里。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d11-5",
+    "key": "d11-5",
+    "reviewId": 81,
+    "dimension": 10,
+    "text": "一个问题只要发条消息就能问清。我会反复想着措辞，把发送这一步留到后面。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d11-13",
+    "key": "d11-13",
+    "reviewId": 82,
+    "dimension": 10,
+    "text": "已经空出一段时间处理自己的目标，没有别的事打断。我会不断从一个小消遣跳到另一个。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d12-13",
+    "key": "d12-13",
+    "reviewId": 83,
+    "dimension": 11,
+    "text": "朋友问起一个我们都可能争取的机会，我会先保留最关键的那部分信息。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d9-1",
+    "key": "d9-1",
+    "reviewId": 84,
+    "dimension": 8,
+    "text": "与我起点差不多的人先拿到了想要的机会。我会反复比较，我们到底差在哪一步。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d7-10",
+    "key": "d7-10",
+    "reviewId": 85,
+    "dimension": 6,
+    "text": "正在亲近的人忽然安静下来，我不确定他是否还舒服。我会先确认，而不是只照原来的节奏继续。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d10-11",
+    "key": "d10-11",
+    "reviewId": 86,
+    "dimension": 9,
+    "text": "我觉得有人在占便宜时，会先用讽刺的话点出来，再考虑要不要问清情况。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d6-8",
+    "key": "d6-8",
+    "reviewId": 87,
+    "dimension": 5,
+    "text": "最近某项娱乐明显占掉了原本留给其他事情的时间。我会主动缩短一次使用时段看看。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d7-11",
+    "key": "d7-11",
+    "reviewId": 88,
+    "dimension": 6,
+    "text": "我想公布两个人的关系，对方还想晚一点。我会觉得，先让最亲近的几个人知道，也许是个折中的办法。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d3-12",
+    "key": "d3-12",
+    "reviewId": 89,
+    "dimension": 2,
+    "text": "交通延误后，同伴也开始着急。我通常先看看接下来能怎么走，而不是跟着抱怨起来。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d14-14",
+    "key": "d14-14",
+    "reviewId": 90,
+    "dimension": 13,
+    "text": "一次有吸引力的互动里，我会主动留意对方对节奏的反应，而不只关注两个人是否聊得热烈。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d3-8",
+    "key": "d3-8",
+    "reviewId": 91,
+    "dimension": 2,
+    "text": "讨论中有人误解了我的意思。我愿意先换个例子解释，而不是马上重复原来的话。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d10-10",
+    "key": "d10-10",
+    "reviewId": 92,
+    "dimension": 9,
+    "text": "和亲近的人争执后，我想暂时不聊了。我通常能说清楚自己想停多久，让这段空白不必靠对方来猜。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d1-10",
+    "key": "d1-10",
+    "reviewId": 93,
+    "dimension": 0,
+    "text": "朋友复述我讲过的观点时，加了一些自己的理解。我更在意他加的部分是否有道理，而不是有没有照原话说。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d10-12",
+    "key": "d10-12",
+    "reviewId": 94,
+    "dimension": 9,
+    "text": "一件小事接连出了几次错，我会一下子把此前的不满也都说出来。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d12-1",
+    "key": "d12-1",
+    "reviewId": 95,
+    "dimension": 11,
+    "text": "一份共享资源限量开放，我暂时用不了那么多。我通常先取眼下确定会用的部分，把后来可能的需要留到后来处理。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d9-8",
+    "key": "d9-8",
+    "reviewId": 96,
+    "dimension": 8,
+    "text": "以前和我不相上下的人，最近越来越受认可。我会更频繁地查看他的动态。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d14-6",
+    "key": "d14-6",
+    "reviewId": 97,
+    "dimension": 13,
+    "text": "浏览性相关内容时，发现它已经挤掉今天的必要休息。我能在意识到这一点时结束，而不是再挑一段作结。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d9-4",
+    "key": "d9-4",
+    "reviewId": 98,
+    "dimension": 8,
+    "text": "群里聊到一个同龄人的近况，大家都很羡慕。我会下意识补充，他也有不那么顺的地方。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d8-2",
+    "key": "d8-2",
+    "reviewId": 99,
+    "dimension": 7,
+    "text": "我熟悉的事情由另一个人来主持，我只是普通参与者。我会觉得自己的位置有点不对。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d13-8",
+    "key": "d13-8",
+    "reviewId": 100,
+    "dimension": 12,
+    "text": "吃自助餐时，还有几样很想尝，但身体已经觉得够了。我能接受这次没尝全，把剩下的留到另一次。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d5-15",
+    "key": "d5-15",
+    "reviewId": 101,
+    "dimension": 4,
+    "text": "我有一点空闲，朋友的问题刚好是我熟悉的。我愿意划出一个明确的小时间段帮他理清楚。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d1-2",
+    "key": "d1-2",
+    "reviewId": 102,
+    "dimension": 0,
+    "text": "会议里有人问了一个基础问题，恰好也是我没弄清的。我更愿意散会后单独确认，免得当场打断讨论。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d11-10",
+    "key": "d11-10",
+    "reviewId": 103,
+    "dimension": 10,
+    "text": "一个任务需要从熟悉的状态切换到新的状态。我会为这个切换拖很久，尽管任务本身并不难。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d5-4",
+    "key": "d5-4",
+    "reviewId": 104,
+    "dimension": 4,
+    "text": "别人问起我刚摸索出的小技巧。我愿意告诉他结论，但完整的整理会先留给自己用。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d7-14",
+    "key": "d7-14",
+    "reviewId": 105,
+    "dimension": 6,
+    "text": "一时心动让我想立刻作决定，但我已经对另一段关系作过明确约定。我会先处理原来的约定。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d12-9",
+    "key": "d12-9",
+    "reviewId": 106,
+    "dimension": 11,
+    "text": "活动的纪念品数量有限，我已经拿到喜欢的一份。我仍会想再拿一份，以后也许用得上。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d8-8",
+    "key": "d8-8",
+    "reviewId": 107,
+    "dimension": 7,
+    "text": "讨论慢慢走向一个不是我提出的办法。我能让话题继续，不一定还要在结尾补上一段自己的判断。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d3-11",
+    "key": "d3-11",
+    "reviewId": 108,
+    "dimension": 2,
+    "text": "打电话办事被转接了两次，新接线的人又问了一遍情况。我还能把关键部分重新说清楚。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d2-12",
+    "key": "d2-12",
+    "reviewId": 109,
+    "dimension": 1,
+    "text": "聊天里听出一个人其实不太开心，但他一直在开玩笑。我通常会先接住玩笑，等他自己决定要不要认真聊。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d3-10",
+    "key": "d3-10",
+    "reviewId": 110,
+    "dimension": 2,
+    "text": "一起做饭的人切菜比我慢，时间还够。我会想交换一下分工，让整顿饭的节奏更顺。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d7-2",
+    "key": "d7-2",
+    "reviewId": 111,
+    "dimension": 6,
+    "text": "和有好感的人约见面时，对方说还想再了解一阵子。我会把这句话当作安排节奏的依据。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d8-13",
+    "key": "d8-13",
+    "reviewId": 112,
+    "dimension": 7,
+    "text": "在自己熟悉的圈子里，我会希望有人先来问我的看法，再作重要决定。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d6-9",
+    "key": "d6-9",
+    "reviewId": 113,
+    "dimension": 5,
+    "text": "聚会气氛很好，大家还想继续，明早我有明确安排。我会按自己的情况决定什么时候离开。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d5-7",
+    "key": "d5-7",
+    "reviewId": 114,
+    "dimension": 4,
+    "text": "收到一个机会的信息，名额不影响我自己的申请。我愿意告诉同样合适的人。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d10-13",
+    "key": "d10-13",
+    "reviewId": 115,
+    "dimension": 9,
+    "text": "有人从旁边排到我前面，我会先问一句他是不是也在排这条队，再决定怎么说。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d1-13",
+    "key": "d1-13",
+    "reviewId": 116,
+    "dimension": 0,
+    "text": "临时加入一个团队，大家做事有点散，而我有相关经验。我会先给出一套框架，让大家有个起点。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d14-7",
+    "key": "d14-7",
+    "reviewId": 117,
+    "dimension": 13,
+    "text": "对方不愿分享更私密的照片。我能让这件事就此结束，不再琢磨怎样表达才会让他愿意。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d3-9",
+    "key": "d3-9",
+    "reviewId": 118,
+    "dimension": 2,
+    "text": "自己种的植物、练的技能或经营的小项目，一时看不出变化。我能继续按原计划照料一段时间。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d1-14",
+    "key": "d1-14",
+    "reviewId": 119,
+    "dimension": 0,
+    "text": "对方用词不够专业，但指出了实际问题。我会先处理问题，再考虑要不要解释术语。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d1-5",
+    "key": "d1-5",
+    "reviewId": 120,
+    "dimension": 0,
+    "text": "朋友请我推荐一本书，但那个领域我只读过一本。我会把这个情况也一起告诉他。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d10-15",
+    "key": "d10-15",
+    "reviewId": 121,
+    "dimension": 9,
+    "text": "对方后来作了解释，但我那时的火气还在。我会继续抓住他的用词，往下追问。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d6-2",
+    "key": "d6-2",
+    "reviewId": 122,
+    "dimension": 5,
+    "text": "娱乐正到有意思的地方，但原本留出的时间已经用完。我能把下一段留到之后。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d2-3",
+    "key": "d2-3",
+    "reviewId": 123,
+    "dimension": 1,
+    "text": "朋友发来烦心事，碰巧我也正有一件急着想倾诉的事。我通常会先把自己的情况讲出来，再听他那边。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d1-12",
+    "key": "d1-12",
+    "reviewId": 124,
+    "dimension": 0,
+    "text": "别人夸我很擅长某件事。我通常会让这份肯定停留一会儿，不急着补充自己还不擅长的部分。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d5-8",
+    "key": "d5-8",
+    "reviewId": 125,
+    "dimension": 4,
+    "text": "有人为共同活动垫了不少准备工作。我会主动问，有没有一块可以由我来分担。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d8-14",
+    "key": "d8-14",
+    "reviewId": 126,
+    "dimension": 7,
+    "text": "别人用一种我认为不够专业的方式表达意见。我会较难继续认真听完他的内容。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d4-4",
+    "key": "d4-4",
+    "reviewId": 127,
+    "dimension": 3,
+    "text": "约定的交付还早，我已经发现一处可能卡住的地方。我会提前去问，不等做到那里再说。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d7-5",
+    "key": "d7-5",
+    "reviewId": 128,
+    "dimension": 6,
+    "text": "我想向好友分享一段甜蜜对话，里面有对方私下说的话。我会先问能不能分享，而不是只把姓名遮住。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d8-15",
+    "key": "d8-15",
+    "reviewId": 129,
+    "dimension": 7,
+    "text": "合作成果要展示给外人时，我会想参与最显眼的那一部分，即使幕后部分同样重要。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d14-3",
+    "key": "d14-3",
+    "reviewId": 130,
+    "dimension": 13,
+    "text": "本来准备完成一件重要的事，想认识的人上线了。我能先做完手里这一小段，再决定要不要开始聊天。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d4-5",
+    "key": "d4-5",
+    "reviewId": 131,
+    "dimension": 3,
+    "text": "周末想做几件事，也想留点自由。我更愿意不预先排时段，等当天的兴致来了再开始。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d1-15",
+    "key": "d1-15",
+    "reviewId": 132,
+    "dimension": 0,
+    "text": "一起旅行时，我安排的路线不太顺。同行的人提出换路线，我能让他接着安排。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d6-5",
+    "key": "d6-5",
+    "reviewId": 133,
+    "dimension": 5,
+    "text": "同时有几件新爱好都很吸引我。我会想先都买一份入门材料，实际试过再决定留下哪些。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d12-6",
+    "key": "d12-6",
+    "reviewId": 134,
+    "dimension": 11,
+    "text": "别人把一项共同成果整理给大家使用，我会想把其中最有价值的一部分先留给自己。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d9-7",
+    "key": "d9-7",
+    "reviewId": 135,
+    "dimension": 8,
+    "text": "聚会时大家围着一个最近很顺利的人聊天。我会比较想把话题带到别的地方。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d11-7",
+    "key": "d11-7",
+    "reviewId": 136,
+    "dimension": 10,
+    "text": "学习安排到了实际练习的环节。我会想再看一段讲解，等感觉更准备好了再动手。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d11-3",
+    "key": "d11-3",
+    "reviewId": 137,
+    "dimension": 10,
+    "text": "约好要整理的公共空间还没动，大家都没提。我会想，等有人先开始时再一起做。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d4-15",
+    "key": "d4-15",
+    "reviewId": 138,
+    "dimension": 3,
+    "text": "临睡前想到明天最麻烦的一件事。我会先准备一件用得上的东西，减少明天开头的阻力。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d12-12",
+    "key": "d12-12",
+    "reviewId": 139,
+    "dimension": 11,
+    "text": "和别人共同使用一片空间时，我会逐渐把更多位置留给自己的东西，即使对方也需要。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d9-2",
+    "key": "d9-2",
+    "reviewId": 140,
+    "dimension": 8,
+    "text": "朋友得到了一件我也想要的东西。我通常能先听完他的经历，之后再想自己的下一步。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d11-15",
+    "key": "d11-15",
+    "reviewId": 141,
+    "dimension": 10,
+    "text": "一项申请只差最后提交，我已经检查过，也不缺材料。我会让页面开着，继续拖到接近截止。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d3-1",
+    "key": "d3-1",
+    "reviewId": 142,
+    "dimension": 2,
+    "text": "排队时前面的人正在慢慢确认一项要求，工作人员也在认真查。我愿意多等一会儿，让这件事先处理完整。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d11-4",
+    "key": "d11-4",
+    "reviewId": 143,
+    "dimension": 10,
+    "text": "待办很清楚，也没有特别难的步骤。我会先挑一件直接动手，清单的格式以后再整理。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d12-7",
+    "key": "d12-7",
+    "reviewId": 144,
+    "dimension": 11,
+    "text": "领取数量可以自行填写，没有人逐项核对。我会把可能用得上的最大数量填进去。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d9-10",
+    "key": "d9-10",
+    "reviewId": 145,
+    "dimension": 8,
+    "text": "朋友买的东西得到了很多称赞，我也想再看看它。我会先分清，是东西真的适合我，还是那个受关注的时刻吸引我。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d11-9",
+    "key": "d11-9",
+    "reviewId": 146,
+    "dimension": 10,
+    "text": "眼下有余力，一件搁着的小事又在脑中出现。我通常会趁这次想到，把最容易的一步先处理。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d7-15",
+    "key": "d7-15",
+    "reviewId": 147,
+    "dimension": 6,
+    "text": "两个人对亲密相处的期待不一样。我更愿意先知道哪些部分彼此都舒服，再决定接下来怎么安排。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d5-9",
+    "key": "d5-9",
+    "reviewId": 148,
+    "dimension": 4,
+    "text": "朋友用完借走的工具，又提出一件我也想请他帮的小事。我会觉得，这样有来有往会让关系更舒服。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d10-2",
+    "key": "d10-2",
+    "reviewId": 149,
+    "dimension": 9,
+    "text": "收到一条让我觉得被冒犯的消息，我会先把想说的话打在输入框里，过一会儿再决定发哪些。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d10-3",
+    "key": "d10-3",
+    "reviewId": 150,
+    "dimension": 9,
+    "text": "游戏或活动中被一个熟人反复打断，我会突然说一句，让现场安静下来的重话。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d13-7",
+    "key": "d13-7",
+    "reviewId": 151,
+    "dimension": 12,
+    "text": "有件事让我烦着，正在吃的东西味道并不特别好。我也会一口接一口，让手和嘴别停下来。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d6-4",
+    "key": "d6-4",
+    "reviewId": 152,
+    "dimension": 5,
+    "text": "外出前给自己定了预算，到了现场又遇到很多诱人的选择。我还能用原来的预算来做决定。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d2-5",
+    "key": "d2-5",
+    "reviewId": 153,
+    "dimension": 1,
+    "text": "新加入群聊的人连续发了几个没人回应的问题。我愿意先接其中一个话头。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d13-3",
+    "key": "d13-3",
+    "reviewId": 154,
+    "dimension": 12,
+    "text": "一天过得很委屈，手边也不饿。我会想找点吃的，让那种难受先小一点。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d13-9",
+    "key": "d13-9",
+    "reviewId": 155,
+    "dimension": 12,
+    "text": "为了吃到临时很想吃的东西，我会把原定的睡觉时间往后挪，次日安排也跟着受影响。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d14-8",
+    "key": "d14-8",
+    "reviewId": 156,
+    "dimension": 13,
+    "text": "我和伴侣对哪些私下互动需要告知有过约定。遇到很吸引我的人时，我会把原来会说的小事，归进“没必要特意说”的范围。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d8-4",
+    "key": "d8-4",
+    "reviewId": 157,
+    "dimension": 7,
+    "text": "刚认识的人在我擅长的领域谈得很起劲。我会想找个机会，让他知道我在这方面的经历。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d14-15",
+    "key": "d14-15",
+    "reviewId": 158,
+    "dimension": 13,
+    "text": "为了延续一段暧昧互动，我会把自己已经承诺给重要事情的时间，一点点挪过去。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d14-10",
+    "key": "d14-10",
+    "reviewId": 159,
+    "dimension": 13,
+    "text": "我想推进关系，对方说还没想好。我能把下一步留到以后，不把这次聊天变成一个需要得到答案的场合。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d8-3",
+    "key": "d8-3",
+    "reviewId": 160,
+    "dimension": 7,
+    "text": "别人没有采用我的方案，效果也不错。我会想看看，那种办法里有没有值得下次借用的部分。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d10-5",
+    "key": "d10-5",
+    "reviewId": 161,
+    "dimension": 9,
+    "text": "一次不愉快已经结束，脑中还会自动出现更有力度的回话。我会继续沿着这些回话想下去，像把那场对话重新打一遍。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d7-13",
+    "key": "d7-13",
+    "reviewId": 162,
+    "dimension": 6,
+    "text": "对方说自己愿意尝试，但听起来像是在配合我。我会多留一点时间，让这个决定不用当场作出。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d6-6",
+    "key": "d6-6",
+    "reviewId": 163,
+    "dimension": 5,
+    "text": "手机提示下一条内容可能正合我的兴趣，但我已经准备睡觉。我能停在这一条。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d2-14",
+    "key": "d2-14",
+    "reviewId": 164,
+    "dimension": 1,
+    "text": "团体里有个人做事慢，大家开始不带他讨论。我会试着找一件适合他参与的部分。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d5-1",
+    "key": "d5-1",
+    "reviewId": 165,
+    "dimension": 4,
+    "text": "我找到一份很实用的资料，也知道朋友正好需要。我会顺手把整理好的版本发给他。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d2-1",
+    "key": "d2-1",
+    "reviewId": 166,
+    "dimension": 1,
+    "text": "同事最近几次回复都很简短，今天又漏了一条消息。我会先问他最近是不是有事。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d9-13",
+    "key": "d9-13",
+    "reviewId": 167,
+    "dimension": 8,
+    "text": "别人分享一种新方法，帮他很快解决了难题。我会先在意，为什么自己没有早点知道。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d9-3",
+    "key": "d9-3",
+    "reviewId": 168,
+    "dimension": 8,
+    "text": "别人夸一位熟人的作品，我也觉得不错。我仍会很快想到，他哪些条件比我有利。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d5-2",
+    "key": "d5-2",
+    "reviewId": 169,
+    "dimension": 4,
+    "text": "几个人一起买东西，最后剩下一点共同预算。我会把余额说清楚，再一起决定怎么用。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d2-2",
+    "key": "d2-2",
+    "reviewId": 170,
+    "dimension": 1,
+    "text": "聚会里有人说到一半被热闹的话题盖过去了。我会找个空隙，把话题带回他那里。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d14-11",
+    "key": "d14-11",
+    "reviewId": 171,
+    "dimension": 13,
+    "text": "一段暧昧让我很期待新消息，手头还有需要集中的事。我会暂时收起提醒，把期待留到休息时再看。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d10-1",
+    "key": "d10-1",
+    "reviewId": 172,
+    "dimension": 9,
+    "text": "出门前临时发现东西被人挪了位置，我已经快迟到了。我说话的声音会很快变大。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d2-8",
+    "key": "d2-8",
+    "reviewId": 173,
+    "dimension": 1,
+    "text": "原本和我很聊得来的朋友，最近迷上了我不感兴趣的爱好。我仍会问问他最近有什么新发现。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d6-14",
+    "key": "d6-14",
+    "reviewId": 174,
+    "dimension": 5,
+    "text": "一项休闲活动让我暂时忘记烦恼，但问题还在。我会给它留个结束点，再回来处理问题。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d1-9",
+    "key": "d1-9",
+    "reviewId": 175,
+    "dimension": 0,
+    "text": "一件做过很多次的事出了差错。我会先看这次的条件哪里变了，再考虑自己的熟练方法是否需要调整。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d7-1",
+    "key": "d7-1",
+    "reviewId": 176,
+    "dimension": 6,
+    "text": "暧昧聊天里，对方接住了笑话，却没接住下一句邀请。我会把这两种回应分开看，不把气氛好当作已经说定。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d8-7",
+    "key": "d8-7",
+    "reviewId": 177,
+    "dimension": 7,
+    "text": "讨论里有人质疑我的判断，我知道他的经验比我少。我会觉得不必再把来龙去脉讲得那么细。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d5-5",
+    "key": "d5-5",
+    "reviewId": 178,
+    "dimension": 4,
+    "text": "几个人一起干活，有一段零碎的收尾还没人接。我时间允许时会把它接下来。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d3-3",
+    "key": "d3-3",
+    "reviewId": 179,
+    "dimension": 2,
+    "text": "我在等一条重要回复，手头还有事可做。即使没有新提示，我也会忍不住把聊天窗口重新打开几次。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d6-12",
+    "key": "d6-12",
+    "reviewId": 180,
+    "dimension": 5,
+    "text": "浏览平台时接连出现几个想点开的链接。我会把一部分留到以后，而不是每一个都当下打开。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d8-12",
+    "key": "d8-12",
+    "reviewId": 181,
+    "dimension": 7,
+    "text": "我刚做出一项不错的成绩，又有人来给我建议。我容易把他的提醒听成“这还不够好”。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d10-8",
+    "key": "d10-8",
+    "reviewId": 182,
+    "dimension": 9,
+    "text": "对方当众否定了我，我会想立刻回一句，让他也感受到同样的不舒服。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d9-14",
+    "key": "d9-14",
+    "reviewId": 183,
+    "dimension": 8,
+    "text": "一项爱好里，朋友很快做得比我好。我还能保留自己原来喜欢它的那部分，不必马上换一个更擅长的项目。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d11-1",
+    "key": "d11-1",
+    "reviewId": 184,
+    "dimension": 10,
+    "text": "填一份不难的表格前，我会先点开页面，把能马上填写的几项做掉，再决定什么时候补完。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d3-4",
+    "key": "d3-4",
+    "reviewId": 185,
+    "dimension": 2,
+    "text": "第一次尝试的新爱好，连续几次都没看到进步。我愿意再留出几次练习的机会。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d4-10",
+    "key": "d4-10",
+    "reviewId": 186,
+    "dimension": 3,
+    "text": "一项重复工作做得有点乏味。我会找个更顺手的办法，把剩下的部分完成。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d8-10",
+    "key": "d8-10",
+    "reviewId": 187,
+    "dimension": 7,
+    "text": "朋友建议我向一个比自己年轻的人请教。我会更在意他在哪一步有经验，而不是双方认识时谁更像前辈。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "关系与比较"
+  },
+  {
+    "id": "d6-1",
+    "key": "d6-1",
+    "reviewId": 188,
+    "dimension": 5,
+    "text": "逛到一件不急用的限时商品，正好很合自己的心意。我更在意错过之后会不会惦记，而不是能否再等两天。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "消费与资源"
+  },
+  {
+    "id": "d4-2",
+    "key": "d4-2",
+    "reviewId": 189,
+    "dimension": 3,
+    "text": "一个任务看起来很大，也没人催。我通常会先列出今天能完成的一小步。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d12-4",
+    "key": "d12-4",
+    "reviewId": 190,
+    "dimension": 11,
+    "text": "一个机会和自己关系不大，但放手后会由别人得到。我会因此更不想放开它。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d1-6",
+    "key": "d1-6",
+    "reviewId": 191,
+    "dimension": 0,
+    "text": "争论后查到的资料，支持了对方的说法。我会把链接发回原来的聊天里。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d12-5",
+    "key": "d12-5",
+    "reviewId": 192,
+    "dimension": 11,
+    "text": "一次交换已经谈到自己原先满意的条件。我更想把事情定下来，不一定继续试探还能多争取多少。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "分享与分配"
+  },
+  {
+    "id": "d3-13",
+    "key": "d3-13",
+    "reviewId": 193,
+    "dimension": 2,
+    "text": "在对方还没说明原因时，我听到一个很不认同的结论。我能等他把后面的话说完。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d3-6",
+    "key": "d3-6",
+    "reviewId": 194,
+    "dimension": 2,
+    "text": "对方讲一个故事铺垫很长，我大概猜到了结尾。我会试着帮他概括一句，看能否早点聊到重点。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d13-10",
+    "key": "d13-10",
+    "reviewId": 195,
+    "dimension": 12,
+    "text": "一份喜欢的食物快吃完时，身体已经不想再吃。我能把剩下的一点留在那里，不必靠吃完来结束这份食物。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d11-6",
+    "key": "d11-6",
+    "reviewId": 196,
+    "dimension": 10,
+    "text": "一件已经答应的事，今天完成也不影响休息。我一般会选一个小时间段做掉，不等它变成明天的提醒。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "节奏与安排"
+  },
+  {
+    "id": "d7-6",
+    "key": "d7-6",
+    "reviewId": 197,
+    "dimension": 6,
+    "text": "对方原本答应了一次亲密接触，后来又说今天不太想。我能让安排停在这里。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d8-5",
+    "key": "d8-5",
+    "reviewId": 198,
+    "dimension": 7,
+    "text": "负责的事出了问题，大家等着一个解释。我通常先把发生了什么讲清楚，即使暂时说不出一个漂亮的原因。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d13-2",
+    "key": "d13-2",
+    "reviewId": 199,
+    "dimension": 12,
+    "text": "边看内容边吃零食时，我通常会先分出一份放在手边，而不是把整包一直开着。",
+    "reverse": true,
+    "weight": 0.5,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d13-11",
+    "key": "d13-11",
+    "reviewId": 200,
+    "dimension": 12,
+    "text": "一杯喜欢的饮品还没喝完，我已经有点不舒服。我会把“已经买了”和“还要不要继续喝”分开决定。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d1-1",
+    "key": "d1-1",
+    "reviewId": 201,
+    "dimension": 0,
+    "text": "朋友照着另一种方法把事情做好了，而你一直用老办法。下次遇到类似的事，我愿意先试一次他的做法。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d1-11",
+    "key": "d1-11",
+    "reviewId": 202,
+    "dimension": 0,
+    "text": "我预测的结果没有发生，群里已经换了话题。我仍会补一句，说明上次哪里判断错了。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "交流与冲突"
+  },
+  {
+    "id": "d9-6",
+    "key": "d9-6",
+    "reviewId": 203,
+    "dimension": 8,
+    "text": "刚听说别人进步得更快，我会回看自己原先定的目标。如果已经做到，我仍能保留这一次的满足。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "学习与成长"
+  },
+  {
+    "id": "d12-11",
+    "key": "d12-11",
+    "reviewId": 204,
+    "dimension": 11,
+    "text": "曾经有过的一项额外优先权，现在要回到大家轮流的安排。我可以按新顺序来，不一定要为自己保留例外。",
+    "reverse": true,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d14-13",
+    "key": "d14-13",
+    "reviewId": 205,
+    "dimension": 13,
+    "text": "明天有一件自己重视的安排，但今晚有机会得到很想要的亲密刺激。我会倾向先抓住今晚，即使明天的状态会明显受影响。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "亲密与边界"
+  },
+  {
+    "id": "d8-11",
+    "key": "d8-11",
+    "reviewId": 206,
+    "dimension": 7,
+    "text": "一个大家默认轮流承担的普通任务，轮到我时，我会觉得可以根据能力重新分一下。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "协作与责任"
+  },
+  {
+    "id": "d4-1",
+    "key": "d4-1",
+    "reviewId": 207,
+    "dimension": 3,
+    "text": "待办里有一件拖得很久的小事，今天正好空出十分钟。我会先把它开个头。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d13-13",
+    "key": "d13-13",
+    "reviewId": 208,
+    "dimension": 12,
+    "text": "打开外卖页面只是想看看，越看越想加东西。收到后，我会吃到比原先预想更多的量。",
+    "reverse": false,
+    "weight": 0.5,
+    "domain": "饮食与感受"
+  },
+  {
+    "id": "d9-11",
+    "key": "d9-11",
+    "reviewId": 209,
+    "dimension": 8,
+    "text": "同样的一件事发生在普通人身上，我觉得很好；发生在某个让我有比较压力的人身上，我的评价会更挑剔。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "日常选择"
+  },
+  {
+    "id": "d7-4",
+    "key": "d7-4",
+    "reviewId": 210,
+    "dimension": 6,
+    "text": "朋友很想知道我的一段感情经历。我会讲自己的感受，把涉及另一个人的细节留得少一些。",
+    "reverse": false,
+    "weight": 1,
+    "domain": "关系与比较"
+  }
+]

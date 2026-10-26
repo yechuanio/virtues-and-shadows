@@ -1,0 +1,97 @@
+[
+  {
+    "id": "lantern-court",
+    "name": "灯火之庭",
+    "english": "The Lantern Court",
+    "keywords": "关怀 · 分享 · 信任",
+    "members": [
+      "提灯渡人者",
+      "金穗播种者",
+      "月桂守誓者"
+    ],
+    "palette": {
+      "paper": "#F7F3E8",
+      "ink": "#29483C",
+      "primary": "#4E7052",
+      "accent": "#B38B48"
+    },
+    "ornament": "枝叶、月桂、麦穗与温暖灯光",
+    "mood": "像被点亮的小庭院，让靠近与共同成长成为主旋律。"
+  },
+  {
+    "id": "mountain-bastion",
+    "name": "山岳之垒",
+    "english": "The Mountain Bastion",
+    "keywords": "耐心 · 建造 · 秩序",
+    "members": [
+      "磐石守望者",
+      "星火筑城者",
+      "天平执衡者"
+    ],
+    "palette": {
+      "paper": "#F3F2EB",
+      "ink": "#34473E",
+      "primary": "#667467",
+      "accent": "#A58B60"
+    },
+    "ornament": "山脊、石拱、阶梯、松枝与简洁对称纹样",
+    "mood": "像沿山而建的石城，强调稳定节奏、持续推进和合适的限度。"
+  },
+  {
+    "id": "solar-citadel",
+    "name": "日冕之城",
+    "english": "The Solar Citadel",
+    "keywords": "位置 · 力量 · 资源",
+    "members": [
+      "烈日加冕者",
+      "赤焰破阵者",
+      "鎏金藏星者"
+    ],
+    "palette": {
+      "paper": "#F7F0E5",
+      "ink": "#56392E",
+      "primary": "#A4583D",
+      "accent": "#B58B46"
+    },
+    "ornament": "日轮、城拱、铜金细线、枫叶与克制的火纹",
+    "mood": "像晚霞中的城垣，关注自己的分量、对阻碍的反应和想要留住的事物。"
+  },
+  {
+    "id": "moonlit-cove",
+    "name": "镜月之湾",
+    "english": "The Moonlit Cove",
+    "keywords": "回响 · 期待 · 满足",
+    "members": [
+      "镜湖逐光者",
+      "蜜宴寻慰者",
+      "绯月逐魅者"
+    ],
+    "palette": {
+      "paper": "#F4F0EC",
+      "ink": "#3D4055",
+      "primary": "#6F738D",
+      "accent": "#9A6674"
+    },
+    "ornament": "月弧、水纹、倒影、花瓣与柔和的杯盏轮廓",
+    "mood": "像月光照映的水湾，容纳外界回响、即时体验、比较与亲近带来的牵引。"
+  },
+  {
+    "id": "mistlands",
+    "name": "云岚之境",
+    "english": "The Mistlands",
+    "keywords": "观察 · 留白 · 多面",
+    "members": [
+      "空谷听风者",
+      "云端卧梦者",
+      "昼夜织锦者"
+    ],
+    "palette": {
+      "paper": "#F3F3EE",
+      "ink": "#3C4D4B",
+      "primary": "#7A9693",
+      "accent": "#A7A0B2"
+    },
+    "ornament": "流云、风纹、细密经纬、远山与疏朗星点",
+    "mood": "像尚有余白的山间地图。接纳新视角、启动前的停驻和多维接近，分别以不同方式呈现开放的可能。"
+  }
+]

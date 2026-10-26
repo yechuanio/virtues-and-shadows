@@ -4,9 +4,9 @@ import { CONSENT_VERSION } from '../../../lib/mirror';
 export const dynamic = 'force-dynamic';
 export async function GET(request: Request) {
     try {
-        const user = await actor();
+        const user = await actor(request);
         if (!user)
-            return failure('请登录并自愿加入名录后查看。', 401);
+            return failure('请先打开名片表单并自愿加入名录后查看。', 401);
         const own = await ownMember(user.userId);
         if (!own || own.expires_at <= Date.now() || own.adult_confirmed !== 1 || own.consent_version !== CONSENT_VERSION)
             return failure('请先提交本人昵称、至少一种展示联系方式并确认当前授权。', 403);

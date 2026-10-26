@@ -1,6 +1,6 @@
 # 十四面镜人格 · Fourteen Mirrors
 
-**v2.0.0** · 制作与维护：[野川 yechuan](https://github.com/yechuanio)
+**v2.0.1** · 制作与维护：[野川 yechuan](https://github.com/yechuanio)
 
 [在线体验](https://virtues-and-shadows-98.peppyvale17.chatgpt.site) · [公开源码](https://github.com/yechuanio/virtues-and-shadows) · [更新记录](CHANGELOG.md)
 
@@ -24,7 +24,7 @@ node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1
 npm run dev -- --port 5173 --hostname 127.0.0.1
 ```
 
-本地登录模拟仅用于本地开发，生产登录由Sites托管平台负责。数据库绑定位于`.openai/hosting.json`；复制项目部署时应使用自己的Site身份与托管配置。
+本地登录模拟仅用于本地开发，旧版账号兼容由Sites托管平台负责，新用户无需账号登录。数据库绑定位于`.openai/hosting.json`；复制项目部署时应使用自己的Site身份与托管配置。
 
 ## 校验
 
@@ -41,11 +41,11 @@ node tests/community-local.cjs
 
 - 测试、图鉴和心像无需联系方式。
 - 用户确认年满18岁；昵称和至少一种勾选的本人联系方式必填，授权默认不勾选。
-- 只有已登录、已加入、持有效当前授权名片的用户可分页查看其他授权用户。没有匿名联系人接口或整库导出。
+- 只有已加入、持私密浏览器凭证与有效当前授权名片的用户可分页查看其他授权用户。没有匿名联系人接口或整库导出。
 - 服务器重新计算主原型，不信任客户端的类型声明。不保存整份逐题答案，只存名录必要字段。
 - 支持本人更新、90天到期停止展示、退出删除、频率限制。其他用户先前自行保存的信息无法由本站撤回。
-- Sites稳定站点内用户ID作为记录归属依据，登录邮箱不会自动作为展示联系方式。
-- `members`和`access_limits`仅存在D1，数据库导出、联系人、凭据、本地运行状态均不得提交Git。
+- 无需ChatGPT或其他账号登录。服务器生成私密浏览器凭证，通过HttpOnly、SameSite=Strict Cookie保存（HTTPS下加Secure和__Host-前缀），服务器仅存哈希。旧版身份仅用于兼容已有名片，首次打开后绑定浏览器凭证。清除Cookie或换设备可能失去管理入口，请在清理前退出删除。
+- `members`、`member_sessions`和`access_limits`仅存在D1，数据库导出、联系人、凭据、本地运行状态均不得提交Git。
 
 ## 如何理解
 
@@ -56,3 +56,6 @@ node tests/community-local.cjs
 ## 版本
 
 VERSION、package.json与Git发布标签统一使用语义版本。v2.0.0为本次完整升级，旧版历史由Git保留。15张WebP插画沿用已确认的绘本风格。
+
+
+v2.0.1取消联系方式填写前的ChatGPT登录要求。新授权版本为2026-10-27-v2；旧名片需重新明确授权，才会向免登录加入者展示。

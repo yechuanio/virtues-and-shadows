@@ -1,12 +1,12 @@
 import { env } from 'cloudflare:workers';
-import { getChatGPTUser } from '../app/chatgpt-auth';
+import { resolveMemberActor } from './member-session';
 import { CONSENT_VERSION, interpret, profiles, validSession, type Session } from './mirror';
 export const CONTACT_KEYS = ['email', 'qq', 'wechat', 'phone', 'github'] as const;
 export function api(data: unknown, status = 200) { return Response.json(data, { status, headers: { 'Cache-Control': 'private, no-store, max-age=0', 'Vary': 'Cookie, oai-authenticated-user-id', 'X-Content-Type-Options': 'nosniff', 'X-Robots-Tag': 'noindex, noarchive', 'Referrer-Policy': 'no-referrer' } }); }
 export function failure(message: string, status = 400) { return api({ error: message }, status); }
 export function db() { if (!env.DB)
     throw new Error('DATABASE_UNAVAILABLE'); return env.DB; }
-export async function actor() { return getChatGPTUser(); }
+export async function actor(request:Request) { return resolveMemberActor(request); }
 export function sameOrigin(request: Request) { const origin = request.headers.get('origin'); return !!origin && origin === new URL(request.url).origin; }
 export async function body(request: Request) {
     if (!request.headers.get('content-type')?.includes('application/json'))

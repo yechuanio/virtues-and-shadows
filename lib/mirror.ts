@@ -2,7 +2,7 @@ import profilesData from '../data/profiles.json';
 import questionsData from '../data/questions.json';
 import familiesData from '../data/families.json';
 import dimensionsData from '../data/dimensions.json';
-export const VERSION = '2.0.2';
+export const VERSION = '3.0.0';
 export const CONSENT_VERSION = '2026-10-27-v2';
 export const profiles = profilesData;
 export const questions = questionsData;
@@ -86,7 +86,7 @@ export function matchProfiles(scores: Score[]) {
     const values = valid.map(s => s.score!), mean = values.reduce((a, b) => a + b, 0) / values.length;
     const spread = Math.sqrt(values.reduce((n, v) => n + (v - mean) ** 2, 0) / values.length);
     const ranked = profiles.filter(p => p.primary !== null && scores[p.primary]?.score !== null).map(p => { const primary = scores[p.primary!]!.score!; const raw = p.secondary !== null ? scores[p.secondary]?.score : null; const secondary = raw === null || raw === undefined ? primary : p.secondaryDirection === -1 ? 100 - raw : raw; const affinity = primary * .86 + secondary * .14; return { profile: p, affinity, primary }; }).sort((a, b) => b.affinity - a.affinity || b.primary - a.primary);
-    if (valid.length === 14 && spread <= 9) {
+    if (valid.length === 14 && spread <= 9 && Math.max(...values) - Math.min(...values) <= 20) {
         const balanced = profiles.find(p => p.primary === null)!;
         return [{ profile: balanced, affinity: mean, primary: mean }, ...ranked.slice(0, 2)];
     }

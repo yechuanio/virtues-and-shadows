@@ -1,7 +1,7 @@
 import MirrorApp from '../mirror-app';
 import { notFound } from 'next/navigation';
 import { profileById } from '../../lib/mirror';
-const titles: Record<string, string> = { home: '镜序', test: '入镜', atlas: '镜中群像', heart: '心像匣', meet: '同频回廊', about: '镜笺', privacy: '隐私与相遇约定', disclaimer: '心像阅读与使用声明' };
+const titles: Record<string, string> = { home: '镜序', test: '入镜', atlas: '镜中群像', heart: '心像匣', meet: '同频回廊', about: '镜笺', privacy: '隐私与相遇约定', disclaimer: '心像阅读与使用声明', feedback: '提建议与共创' };
 export async function generateMetadata({ params }: {
     params: Promise<{
         path?: string[];

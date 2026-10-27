@@ -1,6 +1,6 @@
 # 十四面镜人格 · Fourteen Mirrors
 
-**v3.0.2** · 制作与维护：[野川 yechuan](https://github.com/yechuanio)
+**v3.1.0** · 制作与维护：[野川 yechuan](https://github.com/yechuanio)
 
 [在线体验](https://virtues-and-shadows-98.peppyvale17.chatgpt.site) · [公开源码](https://github.com/yechuanio/virtues-and-shadows) · [更新记录](CHANGELOG.md)
 
@@ -70,3 +70,7 @@ v2.0.1取消联系方式填写前的ChatGPT登录要求。新授权版本为2026
 “昼夜织锦者”为隐藏篇章，显示在图鉴中，卡片、详情与结果均标注“隐藏稀有人格”。只有14项均有效、标准差不超过9且最高最低差不超过20，才显示“各项指标接近，没有明显突出的方向”。此规则是产品匹配条件，不是统计稀有率或更高等级。
 
 五大家族分别提供庭院绿金、山岳灰绿、日冕赭金、镜月紫灰、云岚青雾主题，尊重系统减少动态偏好。现有名录授权与私密浏览器凭证不变。
+
+## 建议与共创
+
+站内 `/feedback` 将填写的建议整理成预填GitHub Issue，用户登录GitHub并确认后才公开发布到项目仓库。本站不自动创建Issue，不读取或附带逐题答案、联系方式或浏览器凭证。全站底部提供建议与共创入口，参与方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。

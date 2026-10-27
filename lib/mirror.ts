@@ -2,7 +2,7 @@ import profilesData from '../data/profiles.json';
 import questionsData from '../data/questions.json';
 import familiesData from '../data/families.json';
 import dimensionsData from '../data/dimensions.json';
-export const VERSION = '3.0.2';
+export const VERSION = '3.1.0';
 export const CONSENT_VERSION = '2026-10-27-v2';
 export const profiles = profilesData;
 export const questions = questionsData;

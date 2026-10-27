@@ -1,6 +1,6 @@
 # 十四面镜人格 · Fourteen Mirrors
 
-**v3.2.1** · 制作与维护：[野川 yechuan](https://github.com/yechuanio)
+**v3.2.2** · 制作与维护：[野川 yechuan](https://github.com/yechuanio)
 
 [在线体验](https://virtues-and-shadows-98.peppyvale17.chatgpt.site) · [公开源码](https://github.com/yechuanio/virtues-and-shadows) · [更新记录](CHANGELOG.md)
 

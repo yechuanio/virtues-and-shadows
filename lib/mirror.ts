@@ -2,7 +2,7 @@ import profilesData from '../data/profiles.json';
 import questionsData from '../data/questions.json';
 import familiesData from '../data/families.json';
 import dimensionsData from '../data/dimensions.json';
-export const VERSION = '3.1.0';
+export const VERSION = '3.2.0';
 export const CONSENT_VERSION = '2026-10-27-v2';
 export const profiles = profilesData;
 export const questions = questionsData;
@@ -95,5 +95,4 @@ export function matchProfiles(scores: Score[]) {
     return ranked.slice(0, 3);
 }
 export function interpret(mode: Mode, ids: string[], answers: Responses) { const scores = scoreResponses(mode, ids, answers); return { scores, matches: matchProfiles(scores) }; }
-export function variantFor(profile: Profile, seed: number) { return profile.variants[Number.isFinite(seed) ? Math.abs(Math.trunc(seed)) % profile.variants.length : 0]; }
 export function dateLabel(value: string) { return new Date(value).toLocaleDateString('zh-CN', { timeZone: 'Asia/Shanghai', year: 'numeric', month: 'long', day: 'numeric' }); }

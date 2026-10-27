@@ -1,6 +1,6 @@
 # 十四面镜人格 · Fourteen Mirrors
 
-**v3.1.0** · 制作与维护：[野川 yechuan](https://github.com/yechuanio)
+**v3.2.0** · 制作与维护：[野川 yechuan](https://github.com/yechuanio)
 
 [在线体验](https://virtues-and-shadows-98.peppyvale17.chatgpt.site) · [公开源码](https://github.com/yechuanio/virtues-and-shadows) · [更新记录](CHANGELOG.md)
 
@@ -74,3 +74,9 @@ v2.0.1取消联系方式填写前的ChatGPT登录要求。新授权版本为2026
 ## 建议与共创
 
 站内 `/feedback` 将填写的建议整理成预填GitHub Issue，用户登录GitHub并确认后才公开发布到项目仓库。本站不自动创建Issue，不读取或附带逐题答案、联系方式或浏览器凭证。全站底部提供建议与共创入口，参与方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## v3.2.0 三种主导分类
+
+七美德、七宗罪分别计算有效指标的平均分，每组至少5项有效才分类。使用未取整均分：差值绝对值≤10分为中性，超过10分由较高组决定善主导或恶主导。缺失不算零分，覆盖不足显示倾向待定。此分类与昼夜织锦者的十四项接近条件分别计算。
+
+15个人格各有善、恶、中性三套用户提供的定稿，包含底色标题、双段正文、建议标题与建议。结果按分数选择，图鉴可切换三种；不再随机轮换A/B。旧心像依现有答案重新计算，无需改存储或重测。结果名称、PNG、TXT包含同一分类标签。构建前运行文案完整性检查，防止漏接文案。

@@ -4,6 +4,22 @@ import { type Score, type Profile, type Session, interpret } from './mirror';
 export type Feature = typeof templates[number] & { score: number; label: string; explanation: string };
 export type Heart = { session: Session; completed: string };
 export const isHidden = (profile: Profile) => profile.primary === null;
+export type PersonaKind = 'virtue' | 'neutral' | 'shadow';
+export const PERSONA_KINDS: PersonaKind[] = ['virtue','neutral','shadow'];
+export type PersonaBranch = { label:string; title:string; description:string; adviceTitle:string; advice:string };
+export type DominanceKind = PersonaKind | 'insufficient';
+export function personaBranch(profile: Profile, kind: PersonaKind): PersonaBranch | undefined {
+  return (profile.branches as Partial<Record<PersonaKind,PersonaBranch>>)[kind];
+}
+export function dominance(scores: Score[]) {
+  const virtue=scores.filter(s=>s.dimension<7&&s.score!==null),shadow=scores.filter(s=>s.dimension>=7&&s.score!==null);
+  const sum=(group:Score[])=>group.reduce((n,s)=>n+s.score!,0);
+  const va=virtue.length?sum(virtue)/virtue.length:null,sa=shadow.length?sum(shadow)/shadow.length:null;
+  let kind:DominanceKind='insufficient';
+  if(virtue.length>=5&&shadow.length>=5){const divisor=virtue.length*shadow.length,diff=sum(virtue)*shadow.length-sum(shadow)*virtue.length;kind=Math.abs(diff)<=10*divisor?'neutral':diff>0?'virtue':'shadow';}
+  const label={virtue:'善主导',shadow:'恶主导',neutral:'中性',insufficient:'倾向待定'}[kind];
+  return {kind,label,virtueAverage:va===null?null:Math.round(va*100)/100,shadowAverage:sa===null?null:Math.round(sa*100)/100,virtueCount:virtue.length,shadowCount:shadow.length};
+}
 export function fourFeatures(scores: Score[]): Feature[] {
   const available = scores.filter(s => s.score !== null);
   const select = (kind: 'virtue' | 'sin', high: boolean) => available.filter(s => kind === 'virtue' ? s.dimension < 7 : s.dimension >= 7).sort((a,b) => (high ? b.score! - a.score! : a.score! - b.score!) || a.dimension - b.dimension);
